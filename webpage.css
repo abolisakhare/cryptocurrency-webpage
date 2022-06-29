@@ -1,0 +1,48 @@
+.div{
+    background-color:gainsboro;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.left-div{
+width: 6%;
+float: left;
+align-items: center;
+margin-left: 4px;
+background-color: white;
+
+
+
+}
+.middle-div{
+    width: 80%;
+    
+    float: left;
+    
+}
+.right-div{
+    width: 13%;
+    float: left;
+    margin-right: 4px;
+    align-content: center;
+    background-color: white;   
+    
+}
+.img{
+    width: 40%;
+    height: 40%;
+    border-radius: 1px;
+    margin-top: 14%;
+}
+.col-sm-6{
+    height: 20%;
+}
+.vl {
+    border-left: 1px solid green;
+    height: 50px;
+}
+.btn{
+    text-decoration-color: red;
+    background-color: white;
+    border: 1px;
+    border-color: gray;
+}

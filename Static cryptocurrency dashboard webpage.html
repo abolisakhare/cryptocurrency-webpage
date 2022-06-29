@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Static Cryptocurrency Dashboard Webpage</title>
+        <link rel="stylesheet" href="webpage.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        
+    </head>
+    <body class="div">
+        <script>
+            var ctx = document.getElementById("myChart").getContext("2d");
+
+            var myChart = new chart(ctx, {
+                type: "doughnut",
+                data:{
+                    lables:["bitcoin","Ethereum","Monero"],
+                    datasets:[{
+                        data:[$11,567.00,$5583,$8050],
+                    },
+                ],
+                },
+            });
+            var ctx1 = document.getElementById("myChart1").getContext("2d");
+
+            var myChart = new chart(ctx1, {
+                type: "doughnut",
+                data:{
+                    lables:["bitcoin","Ethereum","Monero"],
+                    datasets:[{
+                        data:[$11,567.00,$5583,$8050],
+                    },
+                ],
+                },
+            });
+        </script>
+        <div class="left-div" style="height: 700px; text-align: center;"><br><br><br><br><br><br><br><br><br><br><br><br>A<br>B<br>C<br>D
+        </div>
+        <div class="middle-div">
+            <div class="container">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-sm-12" style="width: 1000px; background-color: white;">
+                            <div class="col-sm-4">Exchange not submited </div>    
+                            <div class="col-sm-8">Tial Subscription-7 more days left</div>
+                    <!-- <input type="button" value="Renew Subscription" style="color: purple;" -->
+                    </div>
+            
+                        </div>
+                      </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-6" style="background-color:white; margin-right: 4px; width:300px; height: 215px;">
+                        <h6 style="text-align:right; margin-top: 2px;">2.043454BTC</h6>
+                    <br>Balance<br><b>$25200.97</b><br>
+                    <div class="row">
+                    <div class="col-3">Invested<br><b>$10,458.00</div>
+                    <div class="col-2"><div class="vl"></div></div>
+                    <!-- <div class="col-3">%Profit<br><b>+60%</div>
+                    <div class="col-2"><div class="vl"></div></div>
+                    <--%Profit<br><b>+60%</b><div class="vl"></div> -->
+                    <!-- <div class="col-3">USD profit<br><b>$15,648.38</div> --> 
+                    <!-- USD profit<br><b>$15,648.38</b><div class="vl"></div> -->
+                    </div><br>
+                    <input type="button"value="Add Exchange" style="color:red; background-color: white;">
+                    </div>
+                    <div class="col-sm-6" style="background-color:white; width: 500px; height: 215px;">
+                        <!-- <canvas id="myChart" aria-lable="chart" role="img"></canvas> -->
+                    </div>
+                    
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-4" style="width: 150px; height: 200px; background-color: white; margin-right: 4px;">
+                        <canvas id="myChart1" aria-lable="chart" role="img"></canvas></div>
+                    <div class="col-sm-4" style="width: 150px; height: 200px; background-color: white; margin-right: 4px;"></div>
+                    <div class="col-sm-4" style="width: 150px; height: 200px; background-color: white;"></div>
+                  </div>
+
+                  
+            </div>
+        
+            
+        <div class="right-div" style="margin: left 1px;">
+            <img class="img" src="fevicon.jpg" style="border: radius 1px;"> Good Morning! <br><br>
+            Recent activity <br><br>
+            <b>1.837 USD=0.084BTC</b><br>
+             1BTC = 8,468 USD<br><br>
+             <b>1.837 USD=0.084BTC</b><br>
+             1BTC = 8,468 USD<br><br>
+             <b>1.837 USD=0.084BTC</b><br>
+             1BTC = 8,468 USD<br>
+             <hr>
+            <b>Exchange</b>  
+                <select>
+                    <option value="USD">USD</option>
+                    <option value="Pound">Pound</option>
+                    <option value="Rupees">Rupees</option>
+                  </select>
+            </label><br><br>
+            <input type="textbox" value="1,700.00 USD" style="margin: left 3px;;"><br><br>
+            <input type="textbox" value="o,674932 BT" style="margin: left 3px;;">
+        </div>
+    </body>
+</html>
